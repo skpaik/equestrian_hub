@@ -16,8 +16,8 @@ const horseSalesNavigation = [
     name: 'More', 
     href: '#',
     children: [
-      { name: 'Main Site', href: 'https://www.domain.com' },
-      { name: 'Marketplace', href: 'https://marketplace.domain.com' },
+      { name: 'Main Site', href: '/' },
+      { name: 'Marketplace', href: '/marketplace' },
       { name: 'Contact', href: '/contact' }
     ]
   }

@@ -33,8 +33,8 @@ export const subdomainConfigs: Record<string, SubdomainConfig> = {
         name: 'More', 
         href: '#',
         children: [
-          { name: 'Marketplace', href: 'https://marketplace.domain.com' },
-          { name: 'Horse Sales', href: 'https://horsesales.domain.com' },
+          { name: 'Marketplace', href: '/marketplace' },
+          { name: 'Horse Sales', href: '/horsesales' },
           { name: 'About', href: '/about' },
           { name: 'Contact', href: '/contact' }
         ]
@@ -63,8 +63,8 @@ export const subdomainConfigs: Record<string, SubdomainConfig> = {
         name: 'More', 
         href: '#',
         children: [
-          { name: 'Main Site', href: 'https://www.domain.com' },
-          { name: 'Horse Sales', href: 'https://horsesales.domain.com' },
+          { name: 'Main Site', href: '/' },
+          { name: 'Horse Sales', href: '/horsesales' },
           { name: 'Help', href: '/help' }
         ]
       }
@@ -92,8 +92,8 @@ export const subdomainConfigs: Record<string, SubdomainConfig> = {
         name: 'More', 
         href: '#',
         children: [
-          { name: 'Main Site', href: 'https://www.domain.com' },
-          { name: 'Marketplace', href: 'https://marketplace.domain.com' },
+          { name: 'Main Site', href: '/' },
+          { name: 'Marketplace', href: '/marketplace' },
           { name: 'Contact', href: '/contact' }
         ]
       }

@@ -16,8 +16,8 @@ const marketplaceNavigation = [
     name: 'More', 
     href: '#',
     children: [
-      { name: 'Main Site', href: 'https://www.domain.com' },
-      { name: 'Horse Sales', href: 'https://horsesales.domain.com' },
+      { name: 'Main Site', href: '/' },
+      { name: 'Horse Sales', href: '/horsesales' },
       { name: 'Help', href: '/help' }
     ]
   }
