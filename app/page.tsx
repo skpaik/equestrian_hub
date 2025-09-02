@@ -20,8 +20,8 @@ const mainNavigation = [
     name: 'More', 
     href: '#',
     children: [
-      { name: 'Marketplace', href: 'https://marketplace.domain.com' },
-      { name: 'Horse Sales', href: 'https://horsesales.domain.com' },
+      { name: 'Marketplace', href: '/marketplace' },
+      { name: 'Horse Sales', href: '/horsesales' },
       { name: 'About', href: '/about' },
       { name: 'Contact', href: '/contact' }
     ]
